@@ -1,0 +1,88 @@
+
+body{
+	margin: auto 0;
+	font-family: Arial;
+	}
+	
+.zone{/*button design*/
+cursor: pointer;
+color: #FFF;
+font-size: 2em;
+border-radius:4px;
+border: 1px solid #BBB; 
+transition: all 0.3s linear;
+}
+
+.zone:hover{
+	box-shadow: rgba(0,0,0,0.8) 0px 5px 15px,inset 0 0 10px #000000;
+}
+.sticky{
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+.main-nav{
+	display:flex;
+	list-style: none;
+    font-size:0.7em; 
+}
+@media screen 
+  and (min-device-width: 600px){
+  	.main-nav{
+	    font-size:0.5em; 
+	    padding:0;
+
+}
+li{
+	padding: 20px;
+}
+a{
+	color: #F5F5F6;
+	text-decoration: none;
+}
+a:hover{
+ text-decoration: none;
+}
+.cover{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height:80vh;
+}
+.cover-img{
+	width: 30rem;
+}
+.grid-wrapper{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.box > img{
+	width: 100%;
+}
+.box{
+	background-color: #444;
+	padding: 40px;
+	margin: 20px;
+}
+.box:hover{
+	transform: rotate(-5deg);
+}
+.push{
+	margin-left: auto;
+}
+.green{
+	background: #00cc66;
+}
+
+.red{
+	background:  #ff6666;
+}
+
+.blue{
+	background: #0099ff;
+}
+
+.yellow{
+	background: #e6b800;
+}
